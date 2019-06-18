@@ -1,4 +1,5 @@
 #!/bin/bash
+### Autor AV-Vlasov ( https://github.com/av-vlasov )
 LOG=/var/log/syn_ddos.log
 echo -e "======\nStart script in `date +%F_%T`\n======" >> $LOG
 ip_ban () {
