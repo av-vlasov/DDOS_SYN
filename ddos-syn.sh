@@ -14,6 +14,6 @@ check_ddos_syn () {
 }
 TIME_SLEEP='5'
 while :; do
-    sheck_ddos_syn
+    check_ddos_syn
     sleep $TIME_SLEEP
 done
